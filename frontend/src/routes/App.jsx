@@ -6,7 +6,7 @@ import Footer from "../components/Footer.jsx";
 
 function App() {
   return (
-    <>
+    <body>
       <Header />
       <HeroBanner />
       <section className={"features"}>
@@ -38,7 +38,7 @@ function App() {
         />
       </section>
       <Footer />
-    </>
+    </body>
   );
 }
 
