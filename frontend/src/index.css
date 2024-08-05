@@ -1,5 +1,3 @@
-
-
 html {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -73,7 +71,7 @@ body {
 }
 
 .hero {
-  background-image: url("/src/assets/img/bank-tree.jpeg");
+  background-image: url('../../frontend/src/assets/img/bank-tree.jpeg');
   background-position: 0 -50px;
   background-size: cover;
   background-repeat: no-repeat;

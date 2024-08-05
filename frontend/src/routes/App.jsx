@@ -1,8 +1,8 @@
-import Header from "./components/Header.jsx";
-import "./index.css";
-import HeroBanner from "./components/HeroBanner.jsx";
-import Feature from "./components/Feature.jsx";
-import Footer from "./components/Footer.jsx";
+import Header from "../components/Header.jsx";
+import "../index.css";
+import HeroBanner from "../components/HeroBanner.jsx";
+import Feature from "../components/Feature.jsx";
+import Footer from "../components/Footer.jsx";
 
 function App() {
   return (

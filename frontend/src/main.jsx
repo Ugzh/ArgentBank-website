@@ -1,15 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App.jsx";
+import App from "./routes/App.jsx";
 import "./index.css";
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
+import SignIn from "./routes/signIn.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/sign-in",
+    element: <SignIn />,
   },
 ]);
 
