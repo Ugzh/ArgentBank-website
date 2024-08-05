@@ -10,17 +10,6 @@ export default function HeroBanner() {
           <p className="text">Open a savings account with Argent Bank today!</p>
         </section>
       </div>
-      <section className={"features"}>
-        <h2 className="sr-only">Features</h2>
-        <div className="feature-item">
-          <img src={""} alt="Chat Icon" className="feature-icon" />
-          <h3 className="feature-item-title">You are our #1 priority</h3>
-          <p>
-            Need to talk to a representative? You can get in touch through our
-            24/7 chat or through a phone call in less than 5 minutes.
-          </p>
-        </div>
-      </section>
     </main>
   );
 }
